@@ -1,4 +1,3 @@
-# Rohan Dhanam, Advay Chandorkar, Waleed Altobji
 
 from collections import defaultdict
 
