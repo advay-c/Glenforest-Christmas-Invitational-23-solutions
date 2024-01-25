@@ -28,4 +28,5 @@ These are solutions to the 2023 Glenforest Christmas Invitational contest. The c
 
 c++ and javascript solutions coming soon!!
 
+winners - rdnm0, advay-c, waleed
 
