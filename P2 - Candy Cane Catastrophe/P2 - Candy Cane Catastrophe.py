@@ -1,10 +1,11 @@
+def min_candy_canes(flavours, counts):
+    min_count = min(counts)
+    total_candy_canes = sum(counts)
+    result = total_candy_canes - min_count + 1
+    return result
+
 n = int(input())
-candy_canes = list(map(int, input().split()))
-candy_canes.sort(reverse=True)
+counts = list(map(int, input().split()))
 
-total = 0
-for i in range(n):
-    total += max(candy_canes[i], n)
-    n -= 1
-
-print(total)
+result = min_candy_canes(n, counts)
+print(result)
